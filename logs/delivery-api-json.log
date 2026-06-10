@@ -1,0 +1,352 @@
+{"timestamp":"2026-06-09 21:32:14.045","level":"INFO","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"Starting DeliverytechFatApplication using Java 21.0.11 with PID 64266 (/Users/thiagobaraldi/curso_fat/delivery_tech-main/target/classes started by thiagobaraldi in /Users/thiagobaraldi/curso_fat/delivery_tech-main)","exception":""}
+{"timestamp":"2026-06-09 21:32:14.046","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"Running with Spring Boot v3.5.15-SNAPSHOT, Spring v6.2.19","exception":""}
+{"timestamp":"2026-06-09 21:32:14.046","level":"INFO","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"No active profile set, falling back to 1 default profile: "default"","exception":""}
+{"timestamp":"2026-06-09 21:32:14.064","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable","exception":""}
+{"timestamp":"2026-06-09 21:32:14.064","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'","exception":""}
+{"timestamp":"2026-06-09 21:32:14.711","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Multiple Spring Data modules found, entering strict repository configuration mode","exception":""}
+{"timestamp":"2026-06-09 21:32:14.712","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode.","exception":""}
+{"timestamp":"2026-06-09 21:32:14.796","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 78 ms. Found 5 JPA repository interfaces.","exception":""}
+{"timestamp":"2026-06-09 21:32:14.805","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Multiple Spring Data modules found, entering strict repository configuration mode","exception":""}
+{"timestamp":"2026-06-09 21:32:14.805","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data Redis repositories in DEFAULT mode.","exception":""}
+{"timestamp":"2026-06-09 21:32:14.814","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.ClienteRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:32:14.814","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.PedidoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:32:14.814","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.ProdutoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:32:14.814","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.RestauranteRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:32:14.815","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.UsuarioRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:32:14.815","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.","exception":""}
+{"timestamp":"2026-06-09 21:32:15.137","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.e.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)","exception":""}
+{"timestamp":"2026-06-09 21:32:15.145","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]","exception":""}
+{"timestamp":"2026-06-09 21:32:15.146","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardService","message":"Starting service [Tomcat]","exception":""}
+{"timestamp":"2026-06-09 21:32:15.146","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/10.1.55]","exception":""}
+{"timestamp":"2026-06-09 21:32:15.167","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.c.c.C.[Tomcat].[localhost].[/]","message":"Initializing Spring embedded WebApplicationContext","exception":""}
+{"timestamp":"2026-06-09 21:32:15.168","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.s.c.ServletWebServerApplicationContext","message":"Root WebApplicationContext: initialization completed in 1104 ms","exception":""}
+{"timestamp":"2026-06-09 21:32:15.593","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.p.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer","exception":""}
+{"timestamp":"2026-06-09 21:32:15.607","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Starting...","exception":""}
+{"timestamp":"2026-06-09 21:32:15.691","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deliverydb user=SA","exception":""}
+{"timestamp":"2026-06-09 21:32:15.692","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Start completed.","exception":""}
+{"timestamp":"2026-06-09 21:32:15.706","level":"WARN","thread":"restartedMain","correlationId":"","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)","exception":""}
+{"timestamp":"2026-06-09 21:32:16.202","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'","exception":""}
+{"timestamp":"2026-06-09 21:32:16.353","level":"ERROR","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.e.tomcat.TomcatStarter","message":"Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'jwtUtil': Error creating bean with name 'jwtUtil': Injection of autowired dependencies failed","exception":""}
+{"timestamp":"2026-06-09 21:32:16.364","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardService","message":"Stopping service [Tomcat]","exception":""}
+{"timestamp":"2026-06-09 21:32:16.366","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.a.c.loader.WebappClassLoaderBase","message":"The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)","exception":""}
+{"timestamp":"2026-06-09 21:32:16.366","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.a.c.loader.WebappClassLoaderBase","message":"The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)","exception":""}
+{"timestamp":"2026-06-09 21:32:16.367","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext","message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server","exception":""}
+{"timestamp":"2026-06-09 21:32:16.368","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'","exception":""}
+{"timestamp":"2026-06-09 21:32:16.372","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.s.b.f.s.DisposableBeanAdapter","message":"Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]","exception":""}
+{"timestamp":"2026-06-09 21:32:16.373","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown initiated...","exception":""}
+{"timestamp":"2026-06-09 21:32:16.373","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown completed.","exception":""}
+{"timestamp":"2026-06-09 21:32:17.379","level":"WARN","thread":"restartedMain","correlationId":"","logger":"z.r.i.AsyncReporter$BoundedAsyncReporter","message":"Timed out waiting for in-flight spans to send","exception":""}
+{"timestamp":"2026-06-09 21:32:17.409","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.a.l.ConditionEvaluationReportLogger","message":"
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.","exception":""}
+{"timestamp":"2026-06-09 21:32:17.425","level":"ERROR","thread":"restartedMain","correlationId":"","logger":"o.s.boot.SpringApplication","message":"Application run failed","exception":"org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:622)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.deliverytech.deliverytech_fat.DeliverytechFatApplication.main(DeliverytechFatApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'jwtUtil': Error creating bean with name 'jwtUtil': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:230)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:184)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:179)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:164)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4456)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:783)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:868)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:436)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtUtil': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:515)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1715)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 58 common frames omitted
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'JWT_SECRET' in value "${JWT_SECRET}" <-- "${jwt.secret}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81)
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:298)
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:131)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:970)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1682)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	... 68 common frames omitted
+"}
+{"timestamp":"2026-06-09 21:35:39.117","level":"INFO","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"Starting DeliverytechFatApplication using Java 21.0.11 with PID 64476 (/Users/thiagobaraldi/curso_fat/delivery_tech-main/target/classes started by thiagobaraldi in /Users/thiagobaraldi/curso_fat/delivery_tech-main)","exception":""}
+{"timestamp":"2026-06-09 21:35:39.118","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"Running with Spring Boot v3.5.15-SNAPSHOT, Spring v6.2.19","exception":""}
+{"timestamp":"2026-06-09 21:35:39.119","level":"INFO","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"No active profile set, falling back to 1 default profile: "default"","exception":""}
+{"timestamp":"2026-06-09 21:35:39.139","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable","exception":""}
+{"timestamp":"2026-06-09 21:35:39.140","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'","exception":""}
+{"timestamp":"2026-06-09 21:35:39.764","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Multiple Spring Data modules found, entering strict repository configuration mode","exception":""}
+{"timestamp":"2026-06-09 21:35:39.765","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode.","exception":""}
+{"timestamp":"2026-06-09 21:35:39.849","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 79 ms. Found 5 JPA repository interfaces.","exception":""}
+{"timestamp":"2026-06-09 21:35:39.857","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Multiple Spring Data modules found, entering strict repository configuration mode","exception":""}
+{"timestamp":"2026-06-09 21:35:39.858","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data Redis repositories in DEFAULT mode.","exception":""}
+{"timestamp":"2026-06-09 21:35:39.867","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.ClienteRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:35:39.867","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.PedidoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:35:39.867","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.ProdutoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:35:39.867","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.RestauranteRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:35:39.868","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.UsuarioRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:35:39.868","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.","exception":""}
+{"timestamp":"2026-06-09 21:35:40.196","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.e.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)","exception":""}
+{"timestamp":"2026-06-09 21:35:40.203","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]","exception":""}
+{"timestamp":"2026-06-09 21:35:40.204","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardService","message":"Starting service [Tomcat]","exception":""}
+{"timestamp":"2026-06-09 21:35:40.204","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/10.1.55]","exception":""}
+{"timestamp":"2026-06-09 21:35:40.225","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.c.c.C.[Tomcat].[localhost].[/]","message":"Initializing Spring embedded WebApplicationContext","exception":""}
+{"timestamp":"2026-06-09 21:35:40.225","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.s.c.ServletWebServerApplicationContext","message":"Root WebApplicationContext: initialization completed in 1085 ms","exception":""}
+{"timestamp":"2026-06-09 21:35:40.634","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.p.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer","exception":""}
+{"timestamp":"2026-06-09 21:35:40.649","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Starting...","exception":""}
+{"timestamp":"2026-06-09 21:35:40.739","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deliverydb user=SA","exception":""}
+{"timestamp":"2026-06-09 21:35:40.740","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Start completed.","exception":""}
+{"timestamp":"2026-06-09 21:35:40.754","level":"WARN","thread":"restartedMain","correlationId":"","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)","exception":""}
+{"timestamp":"2026-06-09 21:35:41.240","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'","exception":""}
+{"timestamp":"2026-06-09 21:35:41.394","level":"ERROR","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.e.tomcat.TomcatStarter","message":"Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'jwtUtil': Error creating bean with name 'jwtUtil': Injection of autowired dependencies failed","exception":""}
+{"timestamp":"2026-06-09 21:35:41.406","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardService","message":"Stopping service [Tomcat]","exception":""}
+{"timestamp":"2026-06-09 21:35:41.407","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.a.c.loader.WebappClassLoaderBase","message":"The web application [ROOT] appears to have started a thread named [HikariPool-1:housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)","exception":""}
+{"timestamp":"2026-06-09 21:35:41.407","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.a.c.loader.WebappClassLoaderBase","message":"The web application [ROOT] appears to have started a thread named [HikariPool-1:connection-adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1583)","exception":""}
+{"timestamp":"2026-06-09 21:35:41.408","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext","message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server","exception":""}
+{"timestamp":"2026-06-09 21:35:41.408","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'","exception":""}
+{"timestamp":"2026-06-09 21:35:41.413","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.s.b.f.s.DisposableBeanAdapter","message":"Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]","exception":""}
+{"timestamp":"2026-06-09 21:35:41.413","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown initiated...","exception":""}
+{"timestamp":"2026-06-09 21:35:41.414","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown completed.","exception":""}
+{"timestamp":"2026-06-09 21:35:42.418","level":"WARN","thread":"restartedMain","correlationId":"","logger":"z.r.i.AsyncReporter$BoundedAsyncReporter","message":"Timed out waiting for in-flight spans to send","exception":""}
+{"timestamp":"2026-06-09 21:35:42.448","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.a.l.ConditionEvaluationReportLogger","message":"
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.","exception":""}
+{"timestamp":"2026-06-09 21:35:42.465","level":"ERROR","thread":"restartedMain","correlationId":"","logger":"o.s.boot.SpringApplication","message":"Application run failed","exception":"org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:622)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.deliverytech.deliverytech_fat.DeliverytechFatApplication.main(DeliverytechFatApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:147)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167)
+	... 11 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter': Unsatisfied dependency expressed through field 'jwtUtil': Error creating bean with name 'jwtUtil': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:787)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:230)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:184)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:179)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:164)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4456)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:783)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:868)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:436)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128)
+	... 16 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jwtUtil': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:515)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1457)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1715)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	... 58 common frames omitted
+Caused by: org.springframework.util.PlaceholderResolutionException: Could not resolve placeholder 'JWT_EXPIRATION' in value "${JWT_EXPIRATION}" <-- "${jwt.expiration}"
+	at org.springframework.util.PlaceholderResolutionException.withValue(PlaceholderResolutionException.java:81)
+	at org.springframework.util.PlaceholderParser$ParsedValue.resolve(PlaceholderParser.java:298)
+	at org.springframework.util.PlaceholderParser.replacePlaceholders(PlaceholderParser.java:131)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:114)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:293)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:264)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:186)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:970)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1682)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:784)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509)
+	... 68 common frames omitted
+"}
+{"timestamp":"2026-06-09 21:37:34.255","level":"INFO","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"Starting DeliverytechFatApplication using Java 21.0.11 with PID 64655 (/Users/thiagobaraldi/curso_fat/delivery_tech-main/target/classes started by thiagobaraldi in /Users/thiagobaraldi/curso_fat/delivery_tech-main)","exception":""}
+{"timestamp":"2026-06-09 21:37:34.256","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"Running with Spring Boot v3.5.15-SNAPSHOT, Spring v6.2.19","exception":""}
+{"timestamp":"2026-06-09 21:37:34.256","level":"INFO","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"No active profile set, falling back to 1 default profile: "default"","exception":""}
+{"timestamp":"2026-06-09 21:37:34.276","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable","exception":""}
+{"timestamp":"2026-06-09 21:37:34.276","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'","exception":""}
+{"timestamp":"2026-06-09 21:37:34.880","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Multiple Spring Data modules found, entering strict repository configuration mode","exception":""}
+{"timestamp":"2026-06-09 21:37:34.881","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode.","exception":""}
+{"timestamp":"2026-06-09 21:37:34.960","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.","exception":""}
+{"timestamp":"2026-06-09 21:37:34.969","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Multiple Spring Data modules found, entering strict repository configuration mode","exception":""}
+{"timestamp":"2026-06-09 21:37:34.969","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data Redis repositories in DEFAULT mode.","exception":""}
+{"timestamp":"2026-06-09 21:37:34.978","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.ClienteRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:37:34.978","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.PedidoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:37:34.978","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.ProdutoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:37:34.979","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.RestauranteRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:37:34.979","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationExtensionSupport","message":"Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.deliverytech.deliverytech_fat.repository.UsuarioRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository","exception":""}
+{"timestamp":"2026-06-09 21:37:34.979","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.r.c.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.","exception":""}
+{"timestamp":"2026-06-09 21:37:35.303","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.e.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)","exception":""}
+{"timestamp":"2026-06-09 21:37:35.311","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]","exception":""}
+{"timestamp":"2026-06-09 21:37:35.312","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardService","message":"Starting service [Tomcat]","exception":""}
+{"timestamp":"2026-06-09 21:37:35.312","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/10.1.55]","exception":""}
+{"timestamp":"2026-06-09 21:37:35.332","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.c.c.C.[Tomcat].[localhost].[/]","message":"Initializing Spring embedded WebApplicationContext","exception":""}
+{"timestamp":"2026-06-09 21:37:35.332","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.s.c.ServletWebServerApplicationContext","message":"Root WebApplicationContext: initialization completed in 1056 ms","exception":""}
+{"timestamp":"2026-06-09 21:37:35.742","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.p.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer","exception":""}
+{"timestamp":"2026-06-09 21:37:35.756","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Starting...","exception":""}
+{"timestamp":"2026-06-09 21:37:35.842","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deliverydb user=SA","exception":""}
+{"timestamp":"2026-06-09 21:37:35.843","level":"INFO","thread":"restartedMain","correlationId":"","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Start completed.","exception":""}
+{"timestamp":"2026-06-09 21:37:35.856","level":"WARN","thread":"restartedMain","correlationId":"","logger":"org.hibernate.orm.deprecation","message":"HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)","exception":""}
+{"timestamp":"2026-06-09 21:37:36.374","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.o.j.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'","exception":""}
+{"timestamp":"2026-06-09 21:37:36.564","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"c.d.d.s.JwtAuthenticationFilter","message":"Filter 'jwtAuthenticationFilter' configured for use","exception":""}
+{"timestamp":"2026-06-09 21:37:36.565","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"o.s.w.f.ServerHttpObservationFilter","message":"Filter 'webMvcObservationFilter' configured for use","exception":""}
+{"timestamp":"2026-06-09 21:37:36.615","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider","exception":""}
+{"timestamp":"2026-06-09 21:37:36.616","level":"WARN","thread":"restartedMain","correlationId":"","logger":"o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer","message":"Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR","exception":""}
+{"timestamp":"2026-06-09 21:37:36.643","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.d.j.r.query.QueryEnhancerFactory","message":"Hibernate is in classpath; If applicable, HQL parser will be used.","exception":""}
+{"timestamp":"2026-06-09 21:37:37.212","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"o.s.w.s.m.m.a.RequestMappingHandlerMapping","message":"42 mappings in 'requestMappingHandlerMapping'","exception":""}
+{"timestamp":"2026-06-09 21:37:37.289","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"o.s.w.s.h.SimpleUrlHandlerMapping","message":"Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'","exception":""}
+{"timestamp":"2026-06-09 21:37:37.516","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.a.e.web.EndpointLinksResolver","message":"Exposing 14 endpoints beneath base path '/actuator'","exception":""}
+{"timestamp":"2026-06-09 21:37:37.625","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"o.s.s.web.DefaultSecurityFilterChain","message":"Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter","exception":""}
+{"timestamp":"2026-06-09 21:37:37.685","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"o.s.w.s.m.m.a.RequestMappingHandlerAdapter","message":"ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice","exception":""}
+{"timestamp":"2026-06-09 21:37:37.722","level":"DEBUG","thread":"restartedMain","correlationId":"","logger":"o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver","message":"ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice","exception":""}
+{"timestamp":"2026-06-09 21:37:37.918","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.a.h.H2ConsoleAutoConfiguration","message":"H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'","exception":""}
+{"timestamp":"2026-06-09 21:37:37.961","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.d.a.OptionalLiveReloadServer","message":"LiveReload server is running on port 35729","exception":""}
+{"timestamp":"2026-06-09 21:37:37.991","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.a.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]","exception":""}
+{"timestamp":"2026-06-09 21:37:37.996","level":"INFO","thread":"restartedMain","correlationId":"","logger":"o.s.b.w.e.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'","exception":""}
+{"timestamp":"2026-06-09 21:37:38.007","level":"INFO","thread":"restartedMain","correlationId":"","logger":"c.d.d.DeliverytechFatApplication","message":"Started DeliverytechFatApplication in 3.988 seconds (process running for 4.17)","exception":""}
