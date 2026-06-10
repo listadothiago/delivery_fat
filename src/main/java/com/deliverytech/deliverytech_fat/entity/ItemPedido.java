@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 public class ItemPedido {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
     
     private long quantidade;
     private double precoUnitario;  

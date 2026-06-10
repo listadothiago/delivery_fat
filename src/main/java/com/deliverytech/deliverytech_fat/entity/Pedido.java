@@ -14,7 +14,7 @@ import com.deliverytech.deliverytech_fat.enums.StatusPedido;
 public class Pedido {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private long id;
 	private LocalDateTime dataPedido;
 	private Boolean entrega;
 	private BigDecimal subTotal;

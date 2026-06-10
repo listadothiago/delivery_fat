@@ -4,7 +4,7 @@ import com.deliverytech.deliverytech_fat.service.ClienteService;
 import com.deliverytech.deliverytech_fat.dto.req.ClienteReqDTO;
 import com.deliverytech.deliverytech_fat.dto.res.ClienteResDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -55,5 +55,14 @@ public class ClienteController {
     public ResponseEntity<ClienteResDTO> buscarPorEmail(@PathVariable String email) {
         ClienteResDTO cliente = clienteService.buscarClientePorEmail(email);
         return ResponseEntity.ok(cliente);
+    }
+
+    
+
+    @CacheEvict(value = "clientes",
+                    allEntries = true)
+    @GetMapping("/limpar-cache")
+    public ResponseEntity<Void> limparCache() {
+        return ResponseEntity.ok().build();
     }
 }
